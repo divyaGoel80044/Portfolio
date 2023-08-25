@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Form</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: url(./portfolioimages/universe.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        section {
+            text-align: center;
+            padding-top: 100px;
+
+        }
+
+        h1 {
+            text-transform: capitalize;
+            padding-left: 40px;
+            color: white;
+            margin-top: 10px;
+            letter-spacing: 2px;
+        }
+
+        div {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: -4px;
+            background-color: #232c3d;
+            height: 530px;
+            width: 530px;
+            text-align: left;
+        }
+
+        form {
+            text-align: left;
+            border-radius: 0px 5px 5px 0px;
+            margin: 20px;
+        }
+
+        input {
+            padding-top: 15px;
+            padding-right: 240px;
+            border: none;
+            background: transparent;
+            border-bottom: 2px solid whitesmoke;
+            margin: 23px;
+            color: white;
+        }
+
+        button {
+            margin: 25px 10px 10px 25px;
+            padding: 10px 30px;
+            background-color: #45a1e0;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: white;
+        }
+
+        a {
+            color: white;
+            padding-left: 15px;
+        }
+
+        section>img {
+            border-radius: 5px 0 0 5px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <img src="./portfolioimages/form.png" alt="">
+
+        <div>
+            <h1>For Contact Us</h1>
+            <form action="">
+
+                <input type="text" pattern="[a-zA-Z ]+" placeholder="Full Name" required>
+                <br />
+
+                <input type="email" placeholder="Email Address" required>
+                <br />
+
+                <input type="number" placeholder="Phone Number- Optional">
+                <br />
+
+                <input type="password" placeholder="Password" required>
+                <br />
+
+                <input type="password" placeholder="Confirm Password" required>
+                <br />
+                <button>SUBMIT 🙏</button>
+
+
+                
+            </form>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
